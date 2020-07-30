@@ -1,0 +1,159 @@
+/*Police personalisée*/
+
+@font-face{
+    font-family: 'squareEnix';
+    src: url('police/Squared-Display.ttf');
+}
+
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/*Haut de page */
+#hautPage
+{
+    display: flex;
+}
+
+
+header
+{
+    border: 3px outset ;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+#titrePrincipal
+{
+    font-size: x-large;
+    margin-left: 10px;
+    
+}
+/*Menu de navigation*/
+
+#lienNavigations
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 3px outset;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 200px;
+}
+/* 1ère Section*/
+
+#descriptionTitre
+{
+    margin-left: 300px;
+}
+
+#descritption
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 2px outset;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+/*2eme Section Thèmes pour débutants*/
+
+#theme
+{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+#themeTitre 
+{
+        margin-left: 300px;
+}
+
+
+
+/* Thème pouvant intéresser les débutants */
+
+/*Python*/
+#python
+{
+    border: 2px outset;
+    border-radius: 10px;
+    width: 300px;
+    padding-left: 10px;
+    background-image: url('images/python.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+}
+#titrePython
+{
+    text-align: center;
+}
+
+/*Linux*/
+#linux
+{
+    border: 2px outset;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20px;
+    padding-left: 10px;
+    background-image: url('images/linux.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    color: black;
+}
+#titreLinux
+{
+    text-align: center;
+}
+
+/*Reseau, tcp/ip*/
+#tcp
+{
+    border: 2px outset;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    background-image: url(images/tcp.jpeg);
+    background-repeat: no-repeat;
+    background-repeat: no;
+}
+
+#tcpTitre
+{
+    text-align: center;
+}
+
+/*Bas de page*/
+
+footer
+{
+    border:  2px outset;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.reseau
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
